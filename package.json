@@ -1,0 +1,32 @@
+{
+  "name": "sqlite-tool",
+  "version": "0.1.0",
+  "description": "A small TypeScript SQLite helper library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "test": "node dist/example.js"
+  },
+  "keywords": [
+    "sqlite",
+    "sqlite-tool",
+    "query"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2"
+  }
+}
