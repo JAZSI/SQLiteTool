@@ -4,26 +4,6 @@ A TypeScript helper library for working with SQLite databases.
 
 ---
 
-## Install & build
-
-Install dependencies and build the package locally:
-
-```powershell
-npm install
-npm run build
-```
-
-During development you can run TypeScript directly with `ts-node`:
-
-```powershell
-npm i -D ts-node typescript @types/node
-npx ts-node example.ts
-```
-
-When published the package name in `package.json` is the canonical import. While developing you can import from `./dist` after building.
-
----
-
 ## Quick start
 
 A runnable example that creates a database file, creates a table with `TableBuilder`, inserts rows and queries them.
