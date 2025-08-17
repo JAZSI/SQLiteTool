@@ -1,7 +1,7 @@
 {
   "name": "sqlite-tool",
   "version": "0.1.0",
-  "description": "A small TypeScript SQLite helper library",
+  "description": "A TypeScript SQLite helper library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -16,9 +16,12 @@
   "keywords": [
     "sqlite",
     "sqlite-tool",
-    "query"
+    "query",
+    "helper",
+    "database",
+    "tool"
   ],
-  "author": "",
+  "author": "JAZSI",
   "license": "MIT",
   "dependencies": {
     "sqlite": "^5.1.1",
