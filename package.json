@@ -1,7 +1,7 @@
 {
   "name": "sqlite-tool",
   "version": "0.1.0",
-  "description": "A TypeScript SQLite helper library",
+  "description": "A TypeScript helper library for working with SQLite databases.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
